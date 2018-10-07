@@ -9,3 +9,4 @@ plugins:
  - jemoji
  - jekyll-mentions
  - jekyll-include-cache
+google_analytics: UA-106000039-1 
