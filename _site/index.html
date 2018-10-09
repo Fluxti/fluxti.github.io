@@ -1,91 +1,256 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
+
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
 
-<!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Fluxti | fluxti.github.io</title>
-<meta property="og:title" content="Fluxti">
-<meta property="og:locale" content="en_US">
-<meta name="description" content="Fluxti github page">
-<meta property="og:description" content="Fluxti github page">
-<link rel="canonical" href="http://localhost:4000/">
-<meta property="og:url" content="http://localhost:4000/">
-<meta property="og:site_name" content="fluxti.github.io">
-<script type="application/ld+json">
-{"name":"fluxti.github.io","description":"Fluxti github page","author":null,"@type":"WebSite","url":"http://localhost:4000/","publisher":null,"image":null,"headline":"Fluxti","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta name="description" content="Fluxti github page">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/css/style.css?v=a3e82188ff0c247b0d4206dc5bf06779d621cd1c">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">fluxti.github.io</h1>
-      <h2 class="project-tagline">Fluxti github page</h2>
-      
-        <a href="http://github.com/Fluxti/fluxti.github.io" class="btn">View on GitHub</a>
-      
-      
-    </section>
+  <title>Fluxti</title>
 
-    <section class="main-content">
-      <h1 id="fluxti">Fluxti</h1>
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<h2 id="about">About</h2>
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
 
-<p>We are a company located in México City .</p>
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-<h2 id="vision">Vision</h2>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
-<p>Our vision is to provide realtime systems to enable logistics management , tracking and analytics .</p>
+</head>
 
+
+<body>
+
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+    <li class="sidebar-brand">
+      <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
+    </li>
+    <li>
+      <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+    </li>
+    <li>
+      <a href="#about" onclick = $("#menu-close").click(); >Acerca de nosotros</a>
+    </li>
+    <li>
+      <a href="#services" onclick = $("#menu-close").click(); >Servicios</a>
+    </li>
+    <li>
+      <a href="#portfolio" onclick = $("#menu-close").click(); >Portafolio</a>
+    </li>
+    <li>
+      <a href="#contact" onclick = $("#menu-close").click(); >Contacto</a>
+    </li>
+  </ul>
+</nav>
+
+  <header id="top" class="header">
+    <div class="text-vertical-center">
+        <h1>Fluxti</h1>
+        <h3>Desarrollo de software </h3>
+        <br>
+    </div>
+    
+</header>
+
+  <section id="about" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>La calidad del software ante todo </h2>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+  <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="services" class="services bg-primary">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Nuestros servicios</h2>
+        <hr class="small">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+                <strong>Desarrollo de software</strong>
+              </h4>
+              <p>Desarrollo de software bajo la metodología agile</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-compass fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+                <strong>Calidad</strong>
+              </h4>
+              <p>La calidad es nuestra mayor prioridad , haciendo uso de la automatización</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-flask fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+                <strong>Alta disponibilidad</strong>
+              </h4>
+              <p>Sistemas en alta disponibilidad que son confiables de usar </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-shield fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+                <strong>Seguridad</strong>
+              </h4>
+              <p>Desarrollo de sistemas con los más altos estándars de seguridad en la industria </p> </div>
+          </div> </div>
+        <!-- /.row (nested) -->
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+  <aside class="callout">
+  <div class="text-vertical-center">
+    <h1>Pasión por el desarrollo de software</h1>
+  </div>
+</aside>
+
+  <section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <hr class="small">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+  <aside class="call-to-action bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3>Deja tu correo electrónico para recibir las noticias más importantes</h3>
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
-
 <div id="mc_embed_signup">
-<form action="https://fluxti.us19.list-manage.com/subscribe/post?u=6911fdbca339f26d27d1691da&amp;id=451048a471" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+<form action="https://fluxti.us19.list-manage.com/subscribe/post?u=6911fdbca339f26d27d1691da&amp;id=451048a471" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6911fdbca339f26d27d1691da_451048a471" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
+      </div>
+    </div>
+  </div>
+</aside>
 
-<!--End mc_embed_signup-->
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h4><strong></strong>
+                </h4>
+               </p>
+                <br>
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://twitter.com/FLUXTI_"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                    </li>
+                </ul>
+                <hr class="small">
+                <p class="text-muted">Copyright &copy;  2018</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
+  <!-- jQuery -->
+<script src="js/jquery.js"></script>
 
-      <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="http://github.com/Fluxti/fluxti.github.io">fluxti.github.io</a> is maintained by <a href="http://github.com/Fluxti">Fluxti</a>.</span>
-        
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-    </section>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
-    
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- Custom Theme JavaScript -->
+<script src="js/custom.js"></script> 
 
-        ga('create', 'UA-106000039-1', 'auto');
-        ga('send', 'pageview');
-      </script>
-    
-  </body>
+  
+</body>
+
 </html>
