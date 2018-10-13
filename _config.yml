@@ -23,3 +23,7 @@ google_api_key: AIzaSyCkUOSKRZGO9RFmljMF8yIuJAn1EUqesKg
 # Build settings
 markdown: kramdown
 google_analytics: 
+
+#plugins
+plugins:
+ - jekyll-seo-tag
